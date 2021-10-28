@@ -7,3 +7,5 @@ Usage:
 - Replace "IP" with the desired IP address
 - Replace "WEBHOOK" with the webhook link connected to the discord channel where you want your script logs
 - Obfuscate the script (I recommend PSU -> https://discord.com/invite/psu)
+
+If you liked the code please give it a star!
