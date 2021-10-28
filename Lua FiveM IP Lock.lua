@@ -30,7 +30,7 @@ AddEventHandler('onResourceStart', function(resourceName)
         ["footer"] = {
         ["text"] = "MICO | IPLOCK",
         },}}
-        PerformHttpRequest("webhook", function() end, 'POST', json.encode({embeds = content}), { ['Content-Type'] = 'application/json' })
+        PerformHttpRequest("WEBHOOK", function() end, 'POST', json.encode({embeds = content}), { ['Content-Type'] = 'application/json' })
       end)
     end
 end)
