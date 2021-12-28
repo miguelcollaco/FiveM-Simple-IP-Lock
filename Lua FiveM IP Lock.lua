@@ -1,16 +1,16 @@
-PerformHttpRequest("https://api.ipify.org/", function (text)
-	if text ~= "IP" then
-		Wait(10000)
-		print("> Checking IP ...")
-		print("> Your IP has not been successfully validated!")
-		print("> Closing Server")
-		Wait(12000)
-		os.exit(-1)
-	else
-		print("> Checking IP ...")
-		print("> Your IP has been successfully validated!")
-		print("> Enjoy your server!")
-	end
+PerformHttpRequest("https://api.ipify.org/", function (err, text, headers)
+    if text ~= "IP" then
+        Wait(10000)
+        print("> Checking IP ...")
+        print("> Your IP has not been successfully validated!")
+        print("> Closing Server")
+        Wait(12000)
+        os.exit(-1)
+    else
+        print("> Checking IP ...")
+        print("> Your IP has been successfully validated!")
+        print("> Enjoy your server!")
+    end
 end)
 
 AddEventHandler('onResourceStart', function(resourceName)
