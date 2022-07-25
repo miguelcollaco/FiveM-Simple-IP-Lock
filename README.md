@@ -12,5 +12,5 @@ Simple code that allows you to lock a fivem script to an IP adress
 This repository makes use of the [MIT License](https://opensource.org/licenses/MIT) and all of its correlating traits.
 
 #  
-A small credit if this repository was to be used would be highly appreciated!
-If you liked the code please give it a star!
+- A small credit if this repository was to be used would be highly appreciated!
+- If you liked the code please give it a star!
