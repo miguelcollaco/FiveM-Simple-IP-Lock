@@ -1,4 +1,4 @@
-# FiveM-Simple-IP-Lock
+# FiveM Simple IP Lock
 
 Simple code that allows you to lock a fivem script to an IP adress
 
